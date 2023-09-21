@@ -10,4 +10,8 @@ public class Tubo {
     public double volume(){
         return (3.14 * (raggio^2)) * altezza;
     }
+
+    public double superficeTot(){
+        return ((3.14 * (raggio^2)) * 2) + ((2 * 3.14 * raggio) * altezza);
+    }
 }
