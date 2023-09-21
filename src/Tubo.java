@@ -7,4 +7,7 @@ public class Tubo {
         raggio = rag;
     }
 
+    public double volume(){
+        return (3.14 * (raggio^2)) * altezza;
+    }
 }
