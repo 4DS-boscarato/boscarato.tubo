@@ -12,6 +12,6 @@ public class Tubo {
     }
 
     public double superficeTot(){
-        return ((3.14 * (raggio^2)) * 2) + ((2 * 3.14 * raggio) * altezza);
+        return ((3.14 * (raggio*raggio)) * 2) + ((2 * 3.14 * raggio) * altezza);
     }
 }
