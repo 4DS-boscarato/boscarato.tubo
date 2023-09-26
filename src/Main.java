@@ -14,5 +14,9 @@ public class Main {
         raggio = input.nextInt();
 
         Tubo t1 = new Tubo(altezza, raggio);
+
+        System.out.println("La superfice totale del tubo e`: " + t1.superficeTot());
+        System.out.println("il volume del tubo e`: " + t1.volume());
+
     }
 }
