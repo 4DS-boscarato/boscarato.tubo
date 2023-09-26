@@ -8,7 +8,7 @@ public class Tubo {
     }
 
     public double volume(){
-        return (3.14 * (raggio^2)) * altezza;
+        return (3.14 * (raggio*raggio)) * altezza;
     }
 
     public double superficeTot(){
